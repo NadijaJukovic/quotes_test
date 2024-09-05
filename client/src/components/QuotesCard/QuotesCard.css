@@ -1,0 +1,102 @@
+.quote-card{
+    height: 260px;
+    width: 500px;
+    border: 2px solid rgb(196, 195, 195);
+    background-color: white;
+    box-shadow: 0 0 10px 5px rgb(196, 195, 195);
+    border-radius: 10px;
+    margin-bottom: 100px;
+    /* margin-top: 180px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+  padding-right: 50px;
+   
+    
+}
+
+.content{
+    font-size: 20px;
+    margin-top: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+.tarik{
+    height: 1.5px;
+    width: 450px;
+    background-color: #78C6D0;
+    margin-top: 30px;
+}
+.author{
+    margin-left: 250px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.like{
+    color: black;
+}
+.votes{
+    display: flex;
+}
+
+.btn-vote1{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    
+}
+
+.btn-vote2{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    margin-top: 23px;
+    margin-left: 25px;
+
+}
+.procenat{
+    font-size: 23px;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+.marks1{
+    font-size: 14px;
+    margin-bottom:5px;
+}
+
+.marks2{
+    font-size: 14px;
+    margin-bottom:-4px;
+}
+
+
+
+@media(max-width: 1024px){
+    .quote-card{
+        width: 400px;
+    }
+
+    .content{
+        margin-top: 10px;
+    }
+
+    .votes{
+        margin-bottom: 20px;
+    }
+
+    .author{
+         margin-left: 120px;
+    }
+
+    .tarik{
+        display: none;
+    }
+
+
+}

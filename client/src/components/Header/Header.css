@@ -1,0 +1,39 @@
+.header{
+    height: 110px;
+    width: 100%;
+    background-color:  #78C6D0;
+    display: flex;
+}
+
+.logout-btn{
+    height: 50px;
+    width: 150px;
+    background-color: #D9C1DD;
+    border-radius: 15px;
+    margin-left: 1000px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.name{
+    margin-top: 20px;
+    margin-left: 100px;
+    color: white;
+}
+
+@media(max-width: 1024px){
+   
+
+    .logout-btn{
+        margin-left: 160px;
+        font-size: 13px;
+        
+    }
+
+    .name{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+}

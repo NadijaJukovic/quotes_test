@@ -1,0 +1,36 @@
+.footer{
+    height: 115px;
+    width: 100%;
+    background-color: #78C6D0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer h2{
+    color: white;
+}
+
+.circle{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color:#D9C1DD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white ;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.circle:hover{
+    background-color: #e6d1ea;
+}

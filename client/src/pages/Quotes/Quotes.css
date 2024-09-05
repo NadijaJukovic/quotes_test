@@ -1,0 +1,122 @@
+
+
+.quotes-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+  }
+
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    gap: 0.5em;
+  }
+
+  .nema{
+    color: white;
+  }
+
+
+.quotes-pr{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 100px;
+
+}
+
+.nur{
+  margin-top: -130px;
+  margin-left: 750px;
+  height: 50px;
+  width: 150px;
+  background-color: #D9C1DD;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.sort-dropdown{
+  height: 30px;
+  width: 150px;
+  margin-top: -100px;
+  margin-left: 400px;
+}
+
+.sort-dropdown label{
+  color: white;
+}
+
+.filter{
+  height: 30px;
+  width: 150px;
+  margin-top: -30px;
+  margin-left: 600px; 
+}
+
+.filter label{
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .quotes-page {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .nur {
+    width: 100%;
+    max-width: 200px;
+    margin: 10px 0;
+  }
+
+  .quotes-page {
+    padding: 0 10px;
+  }
+
+  .pagination {
+    text-align: center;
+  }
+}
+body {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 1024px) {
+  .quotes-pr, .sort-dropdown, .filter-tags, .quotes-page, .pagination {
+    padding: 10px;
+  }
+
+  .quotes-page {
+    flex-direction: column;
+  }
+
+  .sort-dropdown {
+    width: 120px;
+    margin-left: 140px;
+    margin-top: -30px;
+  
+  }
+
+  .filter{
+    width: 100px;
+    margin-left: 10px;
+    margin-top: -30px;
+  }
+
+  .nur{
+    margin-left: 100px;
+    max-width: 100px;
+    margin-top: -140px;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,60 @@
+.home-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column ;
+  background-color: white;
+  height: 750px;
+  
+  
+
+}
+.pic1{
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.button-home{
+  height: 60px;
+  width: 200px;
+  border-radius: 20px;
+  background-color:#D9C1DD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  
+}
+
+a {
+  text-decoration: none; 
+}
+
+.button-home h1{
+  color: white;
+  font-size: 27px;
+  font-weight: 400;
+  text-decoration: solid #D9C1DD;
+}
+
+.title{
+  color: #D9C1DD;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  margin-top: -150px;
+}
+
+.main-home{
+  color: #78C6D0;
+
+}
+
+.title h1{
+  font-size: 45px;
+  margin-top: 20px;
+}

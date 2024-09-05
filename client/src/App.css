@@ -1,0 +1,15 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+  background-color: whitesmoke;
+
+}
+
+.main-app {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    min-height: 75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
